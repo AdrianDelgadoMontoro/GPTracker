@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>GPTracker</title>
+        <link rel="stylesheet" href = "CSS/index.css">
+    </head>
+    <body>
+        <div class="sidebar-overlay"></div>
+
+        <header>
+            <div class="logo-container">
+                <img class="logo" src="Media/logo.png" alt="logo" width="300" height="50">
+                <div class="full-sidebar">
+                    <div class="sidebar-content">
+                        <a href="index.html">Inicio</a>
+                        <a href="horarios.html">Horarios</a>
+                        <a href="noticias.html">Noticias</a>
+                        <a href="pilotos.html">Pilotos</a>
+                        <a href="circuitos.html">Circuitos</a>
+                        <a href="galeria.html">Galería</a>
+                        <a href="FAQ.html">FAQ</a>
+                    </div>
+                </div>
+            </div>
+
+            <nav>
+                <a class="hover-underline" href="horarios.html">Horarios</a>
+                <a class="hover-underline" href="noticias.html">Noticias</a>
+                <a class="hover-underline" href="pilotos.html">Pilotos</a>
+                <a class="hover-underline" href="circuitos.html">Circuitos</a>
+                <a class="hover-underline" href="galeria.html">Galería</a>
+                <a class="hover-underline" href="FAQ.html">FAQ</a>
+            </nav>
+
+        </header>
+        <section class="hero">
+            <video autoplay="autoplay" muted="muted" loop="loop" class="hero-video">
+                <source src="Media/hero.webm" type="video/webm">
+            </video>
+            <div class="hero-text">
+                <a
+                    href="https://www.dazn.com/es-ES/news/motor/marc-marquez-evita-comparaciones-version-2019-diferente-ni-mejor-ni-peor/os61ioyqbgom17h4pbkj2z7ic"
+                    class="hero-link">Marc Márquez evita comparaciones con su versión de 2019:<br>“Soy diferente, ni mejor ni peor”</a>
+            </div>
+        </section>
+
+        <section class="gallery-section">
+            <h2>Circuitos</h2>
+            <div class="gallery-row">
+                <div class="gallery-item">
+                    <a href="https://es.wikipedia.org/wiki/Circuito_de_Jerez"><img src="Media/JerezCircuit_aerial.jpg" alt="Circuito 1">
+                        <p>Jerez</p>
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <a href="https://es.wikipedia.org/wiki/Circuito_de_Assen"><img src="Media/Assen.jpg" alt="Circuito 2">
+                        <p>Assen</p>
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <a href="https://es.wikipedia.org/wiki/Circuito_de_Phillip_Island"><img src="Media/Phillip_Island_Grand_Prix.jpg" alt="Circuito 3">
+                        <p>Phillip Island</p>
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <a href="https://es.wikipedia.org/wiki/Aut%C3%B3dromo_de_Brno"><img src="Media/brno.jpg" alt="Circuito 4">
+                        <p>Brno</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="gallery-section">
+            <h2>Últimas Noticias</h2>
+            <div class="gallery-row">
+                <div class="gallery-item">
+                    <a href="https://as.com/motor/motociclismo/marquez-controla-los-tiempos-n/"><img src="Media/NKTDD3WMXFGGPJM4LWHDG3TGUQ.avif" alt="Noticia 1">
+                        <p>Márquez controla los tiempos</p>
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <a
+                        href="https://as.com/motor/motociclismo/diggia-he-pedido-perdon-a-martin-aun-sin-ser-mi-culpa-n/"><img src="Media/MXHLSYVTVEQ7U5BDQL6M6IGWAI.avif" alt="Noticia 2">
+                        <p>Diggia: “He pedido perdón a Martín aún sin ser mi culpa”</p>
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <a
+                        href="https://www.marca.com/motor/motogp/gp-jerez/2025/04/24/motogp-ganado-veces-circuito-jerez.html"><img src="Media/680a1598130ee.webp" alt="Noticia 3">
+                        <p>¿Quién ha ganado más veces en el circuito de Jerez?</p>
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <a
+                        href="https://es.motorsport.com/motogp/news/bagnaia-culpa-mia-errores-marquez-equipo-oficial-ducati/10715926/"><img src="Media/francesco-bagnaia-ducati-team-.webp" alt="Noticia 4">
+                        <p>Bagnaia: "Es genial conocer pilotos como Márquez y entender que puede haber
+                            una buena relación"</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-form">
+            <h2>Contacto</h2>
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required="required">
+
+                <label for="email">Correo:</label>
+                <input type="email" id="email" name="email" required="required">
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="5" required="required"></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+        <footer class="site-footer">
+            <div class="footer-container">
+                <div class="footer-links">
+                    <a href="index.html">Inicio</a>
+                    <a href="contacto.html">Contacto</a>
+                    <a href="privacidad.html">Política de Privacidad</a>
+                    <a href="ToS.html">Términos de Uso</a>
+                </div>
+
+                <div class="footer-social">
+                    <a
+                        href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.facebook.com/%3Flocale%3Des_ES&ved=2ahUKEwiazqK_y_iMAxV7BdsEHUojGUUQFnoECAwQAQ&usg=AOvVaw1hWFr2j6cc5grAPtvNHanb"><img src="Media/icon-facebook.svg" alt="Facebook"/></a>
+                    <a
+                        href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://x.com/%3Flang%3Des&ved=2ahUKEwja8ZfIy_iMAxVgA9sEHZJiDhsQFnoECBAQAQ&usg=AOvVaw1N8-ZQhZxcJ7ZB5iCM4SZh"><img src="Media/icon-twitter.svg" alt="Twitter"/></a>
+                    <a href="https://www.instagram.com/"><img src="Media/icon-instagram.svg" alt="Instagram"/></a>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 GPTracker. Todos los derechos reservados.</p>
+            </div>
+        </footer>
+
+    </body>
+</html>
